@@ -9,7 +9,7 @@ weight = st.slider("Enter Your Wiaght (in kg)",40,200,75)
  # CALCULATION PART
 bmi = weight/((height/100)**2)
 #CHECKING WHETHER CLICK OR NOT
-button1 = st.button("Clike Me")
+button1 = st.button("Click Me")
 
 # SOME FANCY THINGS
 if(button1):
